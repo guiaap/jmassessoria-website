@@ -3,5 +3,25 @@
 @import "tailwindcss";
 
 @theme {
-  --font-nunito: "Nunito", sans-serif;
+  --font-nunito: "Nunito", sans-serif; 
+}
+
+:root {
+
+  --container: 1500px;
+
+  --primary-background: #FAF8F5;
+
+  --primary-brown: #46280E;
+  --secondary-brown: #724820;
+
+  --primary-gold: #D4A574;
+
+  --primary-text: #FFFFFF;
+  --primary-text-shadow: 0px 0px 3px var(--primary-gold);
+
+  --golden-shadow: 0px 0px 3px var(--primary-gold);
+
+  --white-overlay: #FFFFFF10;
+
 }
